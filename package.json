@@ -1,0 +1,28 @@
+{
+  "name": "login-demo",
+  "version": "1.0.0",
+  "description": "a login demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=$NODE_PATH:./ node server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johnny <johnny.yin@holaverse.com>",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "method-override": "^2.3.6",
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "webpack": "^1.13.2"
+  }
+}
